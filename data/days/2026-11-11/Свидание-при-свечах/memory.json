@@ -1,0 +1,53 @@
+{
+  "art_direction": {
+    "caption": "Тёплый дом",
+    "mood_cluster": "quiet_warm",
+    "motion": {
+      "frame_sec": 13,
+      "grain": 0.35
+    },
+    "palette": [
+      "#D8C8B8",
+      "#F2E8D5",
+      "#C97B4A",
+      "#2B2B2B",
+      "#E34234"
+    ],
+    "reasons": [
+      "warm dominant photo colors → quiet_warm palette",
+      "warm, safe, slow signals → brush strokes and light",
+      "slow/minor track → more air and slower cuts"
+    ],
+    "technique": "monet",
+    "title": "Свидание при свечах",
+    "voice": {
+      "pitch": 0.9,
+      "rate": 0.82,
+      "warmth": "soft"
+    }
+  },
+  "created_at": "2026-11-22T08:03:34.903024Z",
+  "date": "2026-11-11",
+  "mood_cluster": "quiet_warm",
+  "narration": "narration.mp3",
+  "photos": [
+    "photo-1.png",
+    "photo-2.png",
+    "photo-3.png"
+  ],
+  "poster": "",
+  "text": "Свидание при свечах\nТёплый вечер, свечи, чай в больших чашках. Друзья собрались у нас — три чашки, два стула, один разговор до ночи. Кто-то принёс какао в термосе, и оно оказалось лучше всех планов.\nТёплый дом. Свет от свечей на обоях, как у Моне.",
+  "title": "Свидание при свечах",
+  "track": {
+    "artist": "Tomas's focus loop",
+    "bpm": 74,
+    "energy": 0.35,
+    "key": "A",
+    "major": true,
+    "mime": "audio/mpeg",
+    "title": "Candlelight",
+    "valence": 0.72
+  },
+  "track_url": "",
+  "video": "day-ai.mp4"
+}

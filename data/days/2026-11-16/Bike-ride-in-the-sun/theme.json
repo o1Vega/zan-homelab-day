@@ -1,0 +1,15 @@
+{
+  "mood": "light_bright",
+  "palette": [
+    "#F2E8D5",
+    "#F2B8C6",
+    "#BFD9E8",
+    "#2B2B2B",
+    "#E34234"
+  ],
+  "effect": "hanabi",
+  "intensity": 0.8,
+  "background": "linear-gradient(135deg, #E34234, #F2B8C6, #F2E8D5)",
+  "tagline": "A light day.",
+  "seal": "日"
+}

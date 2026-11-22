@@ -1,0 +1,15 @@
+{
+  "mood": "",
+  "palette": [
+    "#E34234",
+    "#C5C9C2",
+    "#3A4A5A",
+    "#1C1D21",
+    "#7D8A80"
+  ],
+  "effect": "rain",
+  "intensity": 0.7,
+  "background": "linear-gradient(rgba(31, 29, 33, 1), rgba(31, 29, 33, 0) 50%",
+  "tagline": "Rain washes away the dirt.",
+  "seal": "拤"
+}

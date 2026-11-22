@@ -1,0 +1,17 @@
+{
+  "mood": "light_bright",
+  "palette": [
+    "#F2E8D5",
+    "#F2B8C6",
+    "#BFD9E8",
+    "#2B2B2B",
+    "#E34234"
+  ],
+  "effect": "sakura",
+  "intensity": 0.8,
+  "background": "linear-gradient(to top, #2b2b2b, #f2e8d5)",
+  "tagline": "Beyond the clouds",
+  "story": "The whole world went quiet and light. A stranger shared his apples with us at the top.",
+  "opening": "brush",
+  "seal": "霧"
+}

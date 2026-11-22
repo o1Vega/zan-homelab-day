@@ -1,0 +1,54 @@
+{
+  "art_direction": {
+    "caption": "Rain over the old town",
+    "mood_cluster": "melancholy",
+    "motion": {
+      "frame_sec": 13,
+      "grain": 0.45
+    },
+    "palette": [
+      "#7D8A80",
+      "#C5C9C2",
+      "#3A4A5A",
+      "#1C1D21",
+      "#E34234"
+    ],
+    "reasons": [
+      "low-energy, low-valence track → rain and nostalgia",
+      "cold dominant photo colors → muted or night palette",
+      "rain/nostalgia signals → haze and muted tones",
+      "slow/minor track → more air and slower cuts"
+    ],
+    "technique": "mist",
+    "title": "Rain over the old town",
+    "voice": {
+      "pitch": 0.85,
+      "rate": 0.88,
+      "warmth": "soft"
+    }
+  },
+  "created_at": "2026-11-22T08:03:40.970728Z",
+  "date": "2026-11-09",
+  "mood_cluster": "melancholy",
+  "narration": "narration.mp3",
+  "photos": [
+    "photo-1.png",
+    "photo-2.png",
+    "photo-3.png"
+  ],
+  "poster": "",
+  "text": "Rain over the old town\nRain all afternoon, fog in the low streets. I said farewell to the old bookshop that closes this week — the owner gave me a stamp to remember it by. Nostalgia, quiet and grey.\nSome days are just for closing doors.",
+  "title": "Rain over the old town",
+  "track": {
+    "artist": "Ana's sea set",
+    "bpm": 66,
+    "energy": 0.28,
+    "key": "D",
+    "major": false,
+    "mime": "audio/mpeg",
+    "title": "Old Town Rain",
+    "valence": 0.34
+  },
+  "track_url": "",
+  "video": "day-ai.mp4"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "残像 Zanzō",
+  "short_name": "残像",
+  "description": "The atmosphere of your days, kept as remembrance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#2b2b2b",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

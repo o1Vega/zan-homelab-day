@@ -1,0 +1,51 @@
+{
+  "art_direction": {
+    "caption": "A light day",
+    "mood_cluster": "light_bright",
+    "motion": {
+      "frame_sec": 7,
+      "grain": 0.3
+    },
+    "palette": [
+      "#F2E8D5",
+      "#F2B8C6",
+      "#BFD9E8",
+      "#2B2B2B",
+      "#E34234"
+    ],
+    "reasons": [
+      "light and open signals → negative space and one accent"
+    ],
+    "technique": "minimal",
+    "title": "Bike ride in the sun",
+    "voice": {
+      "pitch": 1.05,
+      "rate": 1,
+      "warmth": "bright"
+    }
+  },
+  "created_at": "2026-11-22T08:03:36.217121Z",
+  "date": "2026-11-16",
+  "mood_cluster": "light_bright",
+  "narration": "narration.mp3",
+  "photos": [
+    "photo-1.png",
+    "photo-2.png",
+    "photo-3.png"
+  ],
+  "poster": "",
+  "text": "Bike ride in the sun\nSun on the water, a long bike ride along the coast. The sea was so bright it hurt to look at it, in a good way. I bought a lemonade at the pier and smiled at the seagulls, who were not smiling back.\nA light day. The kind you keep in your pocket.",
+  "title": "Bike ride in the sun",
+  "track": {
+    "artist": "Ana's sea set",
+    "bpm": 104,
+    "energy": 0.6,
+    "key": "C",
+    "major": true,
+    "mime": "audio/mpeg",
+    "title": "Coastline",
+    "valence": 0.85
+  },
+  "track_url": "",
+  "video": "day-ai.mp4"
+}

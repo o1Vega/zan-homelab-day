@@ -1,0 +1,17 @@
+{
+  "mood": "quiet_warm",
+  "palette": [
+    "#D8C8B8",
+    "#F2E8D5",
+    "#C97B4A",
+    "#2B2B2B",
+    "#E34234"
+  ],
+  "effect": "hanabi",
+  "intensity": 0.8,
+  "background": "linear-gradient(to right, #d8c8b8, #f2e8d5)",
+  "tagline": "company of petters",
+  "story": "My cat sat on the desk, I drank tea in the small room. We didn't speak, but the warm light was enough.",
+  "opening": "fade",
+  "seal": "猫"
+}

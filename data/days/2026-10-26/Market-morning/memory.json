@@ -1,0 +1,47 @@
+{
+  "art_direction": {
+    "caption": "Market morning",
+    "mood_cluster": "light_bright",
+    "motion": {
+      "frame_sec": 13,
+      "grain": 0.3
+    },
+    "palette": [
+      "#F2E8D5",
+      "#F2B8C6",
+      "#BFD9E8",
+      "#2B2B2B",
+      "#E34234"
+    ],
+    "reasons": [
+      "light and open signals → negative space and one accent",
+      "slow/minor track → more air and slower cuts"
+    ],
+    "technique": "minimal",
+    "title": "Market morning",
+    "voice": {
+      "pitch": 1.05,
+      "rate": 1,
+      "warmth": "bright"
+    }
+  },
+  "created_at": "2026-11-22T08:03:41.989362Z",
+  "date": "2026-10-26",
+  "mood_cluster": "light_bright",
+  "narration": "",
+  "photos": [
+    "photo-1.png",
+    "photo-2.png",
+    "photo-3.png"
+  ],
+  "poster": "",
+  "text": "Market morning\nBright morning at the market: figs, lavender, a fishmonger who whistles. I came home with a basket heavier than the plan and a smile I could not shake. The sun did all of it.\nSmall bright things, stacked like fruit.",
+  "title": "Market morning",
+  "track": {
+    "artist": "Ana's sea set",
+    "title": "Market Morning",
+    "url": "https://bandcamp.com/album/market-morning/track1"
+  },
+  "track_url": "https://bandcamp.com/album/market-morning/track1",
+  "video": "day-ai.mp4"
+}

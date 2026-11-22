@@ -1,0 +1,15 @@
+{
+  "mood": "tense_night",
+  "palette": [
+    "#1E2A4A",
+    "#16181D",
+    "#6B7A8F",
+    "#F5F6F8",
+    "#E34234"
+  ],
+  "effect": "none",
+  "intensity": 0.8,
+  "background": "linear-gradient(45deg, #6b7a8f 30%, #e34234 65%)",
+  "tagline": "В пять сдал",
+  "seal": "一"
+}

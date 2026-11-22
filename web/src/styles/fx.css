@@ -1,0 +1,261 @@
+/* =============================================================
+   ZANZŌ · FX — слой движения в японских мотивах
+   drift · stamp · ping · develop · kenburns · marquee
+   ============================================================= */
+
+/* ---------- 浮 watermark: дрейфующая канджи за контентом ---------- */
+@keyframes fx-drift {
+  from { transform: translateY(0) rotate(-2.5deg); }
+  to   { transform: translateY(-36px) rotate(2deg); }
+}
+.fx-watermark {
+  position: absolute;
+  top: 4%;
+  right: -2%;
+  z-index: 0;
+  font: 600 min(48vh, 42vw) "Noto Serif JP", serif;
+  line-height: 1;
+  color: var(--accent);
+  opacity: .05;
+  pointer-events: none;
+  user-select: none;
+  animation: fx-drift 26s ease-in-out infinite alternate;
+}
+
+/* ---------- 押 stamp: печать вдавливается ---------- */
+@keyframes fx-stamp {
+  0%   { opacity: 0; transform: scale(2.3) rotate(-16deg); }
+  55%  { opacity: 1; transform: scale(.93) rotate(-6.5deg); }
+  75%  { transform: scale(1.05) rotate(-8.5deg); }
+  100% { opacity: 1; transform: scale(1) rotate(-8deg); }
+}
+.seal-stamp { animation: fx-stamp .5s cubic-bezier(.2, .8, .2, 1) both; }
+
+/* ---------- 今 now: пульс-кольцо на «живых» точках ---------- */
+@keyframes fx-ping {
+  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 40%, transparent); }
+  70%  { box-shadow: 0 0 0 9px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+.fx-now-dot,
+.tl-moment .tl-dot { animation: fx-ping 2.8s cubic-bezier(0, 0, .2, 1) infinite; }
+
+/* ---------- 显 develop: фото проявляется, как в тёмной ---------- */
+@keyframes fx-develop {
+  0%   { filter: sepia(.85) contrast(.5) brightness(1.45) saturate(.35); opacity: .25; }
+  100% { filter: none; opacity: 1; }
+}
+.fx-develop { animation: fx-develop 1.15s ease-out both; }
+
+/* ---------- 息 kenburns: медленное дыхание кадра ---------- */
+@keyframes fx-kenburns {
+  from { transform: scale(1); }
+  to   { transform: scale(1.07); }
+}
+.fx-kenburns { animation: fx-kenburns 18s ease-in-out infinite alternate; }
+
+/* ---------- 流 marquee: пиксельная бегущая строка ---------- */
+@keyframes fx-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.fx-ticker {
+  overflow: hidden;
+  border-top: 2px solid var(--border);
+  border-bottom: 2px solid var(--border);
+  background: var(--surface-2);
+  margin-bottom: 18px;
+}
+.fx-ticker-track {
+  display: inline-flex;
+  white-space: nowrap;
+  padding: 8px 0;
+  font-family: var(--pixel);
+  font-size: 9px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  animation: fx-marquee 32s linear infinite;
+}
+.fx-ticker-track > span { margin-right: 32px; flex: none; }
+.fx-ticker-track .tk-red { color: var(--accent); }
+.fx-ticker:hover .fx-ticker-track { animation-play-state: paused; }
+
+/* ---------- 立 rise: подъём при появлении ---------- */
+@keyframes fx-rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---------- 点 blink: мигание пиксельного курсора ---------- */
+@keyframes fx-blink {
+  0%, 55%   { opacity: 1; }
+  56%, 100% { opacity: 0; }
+}
+.fx-blink { animation: fx-blink 1.1s steps(1) infinite; }
+
+/* ---------- 入 page-in: вход страницы при смене маршрута ---------- */
+@keyframes fx-page-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+.content.fx-entering .content-inner {
+  animation: fx-page-in .55s var(--ease) both;
+  animation-delay: .24s;
+}
+
+/* ---------- стаггер списков ---------- */
+[data-stagger] > * { animation: fx-rise .45s var(--ease) both; }
+[data-stagger] > *:nth-child(1)   { animation-delay: 50ms; }
+[data-stagger] > *:nth-child(2)   { animation-delay: 95ms; }
+[data-stagger] > *:nth-child(3)   { animation-delay: 140ms; }
+[data-stagger] > *:nth-child(4)   { animation-delay: 185ms; }
+[data-stagger] > *:nth-child(5)   { animation-delay: 230ms; }
+[data-stagger] > *:nth-child(6)   { animation-delay: 275ms; }
+[data-stagger] > *:nth-child(7)   { animation-delay: 320ms; }
+[data-stagger] > *:nth-child(8)   { animation-delay: 365ms; }
+[data-stagger] > *:nth-child(n+9) { animation-delay: 410ms; }
+
+/* таймлайн дня — стаггер без правок TSX */
+.tl > .tl-item { animation: fx-rise .45s var(--ease) both; }
+.tl > .tl-item:nth-child(1)   { animation-delay: 50ms; }
+.tl > .tl-item:nth-child(2)   { animation-delay: 95ms; }
+.tl > .tl-item:nth-child(3)   { animation-delay: 140ms; }
+.tl > .tl-item:nth-child(4)   { animation-delay: 185ms; }
+.tl > .tl-item:nth-child(5)   { animation-delay: 230ms; }
+.tl > .tl-item:nth-child(6)   { animation-delay: 275ms; }
+.tl > .tl-item:nth-child(7)   { animation-delay: 320ms; }
+.tl > .tl-item:nth-child(8)   { animation-delay: 365ms; }
+.tl > .tl-item:nth-child(n+9) { animation-delay: 410ms; }
+
+/* ---------- печать заголовка (PageHeader) ---------- */
+.h-kanji {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font: 600 16px "Noto Serif JP", serif;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-6deg);
+  box-shadow: 2px 2px 0 var(--border-strong);
+  flex: none;
+}
+.h-wrap { display: flex; align-items: center; gap: 12px; min-width: 0; }
+
+/* ---------- канджи-чип в топбаре ---------- */
+.tb-kanji {
+  font: 400 13px "Noto Serif JP", serif;
+  line-height: 1.5;
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  background: var(--accent-soft);
+  padding: 0 6px;
+  margin-left: 8px;
+}
+
+/* ---------- сайдбар: бренд и канджи-метки ---------- */
+.kanji-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Serif JP", serif;
+  line-height: 1;
+  flex: none;
+}
+.sb-brand-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--pixel);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.sb-brand-name .kanji-seal {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  transform: rotate(-8deg);
+  box-shadow: 1px 1px 0 var(--border-strong);
+}
+.sb-kanji {
+  font: 400 11px "Noto Serif JP", serif;
+  color: var(--faint);
+  margin-left: 6px;
+  transition: color .2s var(--ease);
+}
+.sb-nav-item.active .sb-kanji { color: var(--accent); }
+
+/* ---------- seal-кнопка (тумблер public) ---------- */
+.seal-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 34px;
+  padding: 0 12px;
+  border: 2px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text-2);
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow-card);
+  transition: transform .15s var(--ease), box-shadow .15s var(--ease), border-color .15s var(--ease), color .15s var(--ease);
+}
+.seal-btn .seal-ico {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid currentColor;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font: 600 11px "Noto Serif JP", serif;
+  transform: rotate(-8deg);
+  flex: none;
+}
+.seal-btn:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--shadow-card); }
+.seal-btn.on {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: 2px 2px 0 color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+/* ---------- печать логина ---------- */
+.login-seal {
+  width: 62px;
+  height: 62px;
+  border: 3px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font: 600 32px "Noto Serif JP", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-8deg);
+  box-shadow: 4px 4px 0 var(--shadow-hard);
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .fx-watermark,
+  .fx-kenburns,
+  .fx-now-dot,
+  .tl-moment .tl-dot,
+  .fx-ticker-track,
+  .seal-stamp,
+  .fx-blink { animation: none !important; }
+  .fx-develop { animation: none !important; opacity: 1; filter: none; }
+  .content.fx-entering .content-inner { animation: none !important; }
+  [data-stagger] > *,
+  .tl > .tl-item { animation: none !important; opacity: 1; }
+}

@@ -1,0 +1,14 @@
+{
+  "mood": "mellow",
+  "palette": [
+    "#536970",
+    "#676767",
+    "#8b97a6",
+    "#dccecb"
+  ],
+  "effect": "stars",
+  "intensity": 0.6,
+  "background": "linear-gradient(120deg, #536970, #dccecb)",
+  "tagline": "знакомая ласка",
+  "seal": "残"
+}

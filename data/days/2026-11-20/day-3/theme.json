@@ -1,0 +1,17 @@
+{
+  "mood": "calm",
+  "palette": [
+    "#c8c7c3",
+    "#d2c7b5",
+    "#c7b4a5",
+    "#87374f",
+    "#67312e"
+  ],
+  "effect": "rain",
+  "intensity": 0.7,
+  "background": "linear-gradient(175deg, #c8c7c3, #d2c7b5, #c7b4a5, #87374f, #67312e)",
+  "tagline": "утро у озера, чай остыл",
+  "story": "утро у озера, чай остыл",
+  "opening": "fade",
+  "seal": "残"
+}

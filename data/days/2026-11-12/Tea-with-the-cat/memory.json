@@ -1,0 +1,53 @@
+{
+  "art_direction": {
+    "caption": "Tea with the cat",
+    "mood_cluster": "quiet_warm",
+    "motion": {
+      "frame_sec": 13,
+      "grain": 0.35
+    },
+    "palette": [
+      "#D8C8B8",
+      "#F2E8D5",
+      "#C97B4A",
+      "#2B2B2B",
+      "#E34234"
+    ],
+    "reasons": [
+      "warm dominant photo colors → quiet_warm palette",
+      "warm, safe, slow signals → brush strokes and light",
+      "slow/minor track → more air and slower cuts"
+    ],
+    "technique": "monet",
+    "title": "Tea with the cat",
+    "voice": {
+      "pitch": 0.9,
+      "rate": 0.82,
+      "warmth": "soft"
+    }
+  },
+  "created_at": "2026-11-22T08:03:44.56162Z",
+  "date": "2026-11-12",
+  "mood_cluster": "quiet_warm",
+  "narration": "narration.mp3",
+  "photos": [
+    "photo-1.png",
+    "photo-2.png",
+    "photo-3.png"
+  ],
+  "poster": "",
+  "text": "Tea with the cat\nCozy afternoon, warm light through the blinds, green tea going cold while I read. The cat supervised from the desk, as is its right. We said nothing and it was enough.\nWarmth is a small room and a cat.",
+  "title": "Tea with the cat",
+  "track": {
+    "artist": "Kenji's night loop",
+    "bpm": 74,
+    "energy": 0.35,
+    "key": "A",
+    "major": true,
+    "mime": "audio/mpeg",
+    "title": "Tea \u0026 Cat",
+    "valence": 0.72
+  },
+  "track_url": "",
+  "video": "day-ai.mp4"
+}

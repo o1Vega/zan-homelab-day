@@ -1,0 +1,53 @@
+{
+  "art_direction": {
+    "caption": "Тёплый вечер у какао",
+    "mood_cluster": "quiet_warm",
+    "motion": {
+      "frame_sec": 13,
+      "grain": 0.35
+    },
+    "palette": [
+      "#D8C8B8",
+      "#F2E8D5",
+      "#C97B4A",
+      "#2B2B2B",
+      "#E34234"
+    ],
+    "reasons": [
+      "warm dominant photo colors → quiet_warm palette",
+      "warm, safe, slow signals → brush strokes and light",
+      "slow/minor track → more air and slower cuts"
+    ],
+    "technique": "monet",
+    "title": "Тёплый вечер у какао",
+    "voice": {
+      "pitch": 0.9,
+      "rate": 0.82,
+      "warmth": "soft"
+    }
+  },
+  "created_at": "2026-11-22T08:03:24.73318Z",
+  "date": "2026-11-13",
+  "mood_cluster": "quiet_warm",
+  "narration": "narration.mp3",
+  "photos": [
+    "photo-1.png",
+    "photo-2.png",
+    "photo-3.png"
+  ],
+  "poster": "",
+  "text": "Тёплый вечер у какао\nОсенний парк, лавки ещё тёплые от солнца. Купила какао с маршмеллоу и села на любимую скамейку у пруда. Пришла Аня, мы молчали минут двадцать — просто пили чай и смотрели, как листья ложатся на воду. Потом я нашла в кармане парка чужой билет в филармонию, сохранила на память.\nВечером дома допила какао и поставила старый вальс. Тёплый день из тех, которые хочется продлить.",
+  "title": "Тёплый вечер у какао",
+  "track": {
+    "artist": "Mira's autumn mix",
+    "bpm": 74,
+    "energy": 0.35,
+    "key": "A",
+    "major": true,
+    "mime": "audio/mpeg",
+    "title": "Autumn Waltz",
+    "valence": 0.72
+  },
+  "track_url": "",
+  "video": "day-ai.mp4"
+}

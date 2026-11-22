@@ -1,0 +1,54 @@
+{
+  "art_direction": {
+    "caption": "В пять сдал",
+    "mood_cluster": "tense_night",
+    "motion": {
+      "frame_sec": 4,
+      "grain": 0.15
+    },
+    "palette": [
+      "#1E2A4A",
+      "#16181D",
+      "#6B7A8F",
+      "#F5F6F8",
+      "#E34234"
+    ],
+    "reasons": [
+      "cold dominant photo colors → muted or night palette",
+      "night/rush signals in the text → hard grid and contrast",
+      "slow/minor track → more air and slower cuts",
+      "fast/energetic track → sharper grid, quicker cuts"
+    ],
+    "technique": "kandinsky",
+    "title": "Ночь над дедлайном",
+    "voice": {
+      "pitch": 0.95,
+      "rate": 1.05,
+      "warmth": "neutral"
+    }
+  },
+  "created_at": "2026-11-22T08:03:32.52067Z",
+  "date": "2026-11-18",
+  "mood_cluster": "tense_night",
+  "narration": "",
+  "photos": [
+    "photo-1.png",
+    "photo-2.png",
+    "photo-3.png"
+  ],
+  "poster": "",
+  "text": "Ночь над дедлайном\nНочь, офис, три монитора. Дедлайн в десять, я в четвёртом часу подключился из дома. Кофе остыл уже третий, на столе — кружки и скриншоты. Спринт-заметки, потом ещё спринт-заметки.\nВ пять сдал. Экран погас, и стало тихо, как после грозы.",
+  "title": "Ночь над дедлайном",
+  "track": {
+    "artist": "Tomas's focus loop",
+    "bpm": 118,
+    "energy": 0.8,
+    "key": "A",
+    "major": false,
+    "mime": "audio/mpeg",
+    "title": "Night Sprint",
+    "valence": 0.3
+  },
+  "track_url": "",
+  "video": "day-ai.mp4"
+}

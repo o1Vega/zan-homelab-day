@@ -1,0 +1,23 @@
+# операционная система
+.DS_Store
+Thumbs.db
+
+# локальные секреты
+.env
+
+# рабочее состояние SQLite
+data/zan-day.db-wal
+data/zan-day.db-shm
+
+# сборка Go
+/zan-day
+*.test
+*.out
+coverage.*
+
+# фронтенд
+web/node_modules/
+
+# редакторы
+.vscode/
+.idea/

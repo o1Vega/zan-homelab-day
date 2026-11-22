@@ -1,0 +1,15 @@
+{
+  "mood": "quiet_warm",
+  "palette": [
+    "#D8C8B8",
+    "#F2E8D5",
+    "#C97B4A",
+    "#2B2B2B",
+    "#E34234"
+  ],
+  "effect": "hanabi",
+  "intensity": 1,
+  "background": "linear-gradient(to right, #2b2b2b, #2b2b2b)",
+  "tagline": "Тёплый дом",
+  "seal": "残"
+}
